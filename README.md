@@ -1,2 +1,2 @@
-# sample.github.io
+# sample
 Sample website

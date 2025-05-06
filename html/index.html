@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+h LA HEADING
+p LA PARAGRAPH
+a LA DE LIEN KET LINK
+label LA DE BAM VAO CHU VAN KICH HOAT RADIO
+-->
+<html lang="en">
+    <!--PHAN DAU-->
+    <head>
+        <title>CatPhotoApp</title>
+        <meta charset="UTF-8"> <!--CAN CO PHAN NAY DE HIEN THI TIENG VIET TREN TRANG WEB-->
+        <!-- CSS -->
+         <style>
+            h1{
+                color: green;
+            }
+            ul{
+                color: green;
+            }
+            ol{
+                color: rgb(0, 109, 128);
+            }
+         </style>
+    </head>
+    <!--PHAN THAN-->
+    <body>
+        <main>
+            <div class="lists"> <!--DIV LA DE CHIA LOAI CAC PHAN TU-->
+            <h1>Cat photos</h1>
+            <p>Click here to view more <a href="https://www.google.com/search?sca_esv=458614b49d3a637b&rlz=1C1CHBD_viVN1052VN1052&sxsrf=ADLYWIIHPK1iOb-g8a-tKfjA9pLQmoQOYA:1735553411293&q=%E1%BA%A3nh+m%C3%A8o&udm=2&fbs=AEQNm0D7NTKsOqMPi-yhU7bWDsijXeHIssQxQHiKhz3Orm0Szk2q6O3Esev6DIwpyqAb2Bh2z2pSYQLY4qQRI_QryBvXXSGntQlS78Gi7D5q379_-9qjTaHyIY5et7Bhh-6H8-oaNL9K7stsbnj3tpYydh84PemsfK1XDYKhB4t5mntkDPmPRuPP5BCAdiGZogfr9su01VqXboOFPsUyG8nwy5NOU64k6o-ggArlfoQU6C5tOUNTNLQ&sa=X&ved=2ahUKEwj2lsakoM-KAxVqrlYBHRFRAcAQtKgLegQIERAB&biw=1366&bih=599&dpr=1#vhid=doyJzcMKZFJZGM&vssid=mosaic" target="_blank">cat photos</a>
+            </p>
+            <img src="https://demoda.vn/wp-content/uploads/2022/04/anh-meo-buon-1-800x541.jpg"> 
+            <h1>Cat lists</h1>
+            <p>Things cats <em>love:</em> </p>
+            <ul> <!--UL LA DANH SACH KHONG CO DANH SO MA CO BULLET-->
+                <li>cat nip</li>
+                <img src="cat nip.jfif">
+                <li>laser pointer</li>
+                <img src="laser pointer.jfif">
+                <li>lasagna</li>
+                <img src="lasagna1.jfif">
+            </ul>
+            <p>Things cats <strong>hate</strong>: </p>
+            <ol> <!--OL LA DANH SACH CO DANH SO 1 2 3-->
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+        <div class="form">
+            <p>Cat form</p>
+            <form action="/submit-cat-photo">
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor </label><br>
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor </label><br>
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality">Loving</label><br>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label><br>
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality">Energetic</label><br>
+
+                <input type="text" placeholder="Cat photo URL" required><br>
+                <button type="submit"><strong>Submit</strong></button>
+            </form>
+        </div>
+        </main>
+        <footer>
+            <p><small><strong>No copy right -</strong> <a href="https://www.facebook.com/mai.xuan.hieu.477194/" target="_blank"> Mai Xuan Hieu</a></small></p>
+            <!--TABLE-->
+            <table>
+                <thead> <!--TABLE HEAD-->
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Địa chỉ</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mai Xuân Hiếu</td>
+                        <td>Ba Tơ, Quảng Ngãi</td>
+                    </tr> <!--TABLE ROW-->
+                    <tr>
+                        <td>2</td>
+                        <td>Võ Ngọc Dũng</td>
+                        <td>Thành phố Hồ Chí Minh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+    </body>
+</html>
+
